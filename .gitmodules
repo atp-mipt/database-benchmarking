@@ -1,0 +1,3 @@
+[submodule "ydb-python-sdk"]
+	path = ydb-python-sdk
+	url = https://github.com/clumpytuna/ydb-python-sdk.git
