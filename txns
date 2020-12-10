@@ -1,0 +1,2182 @@
+({:type :invoke, :f :txn, :value [[:r 9 nil] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 1] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:append 9 1]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:append 9 2]]}
+ {:type :invoke, :f :txn, :value [[:append 8 1] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 3]]}
+ {:type :invoke, :f :txn, :value [[:append 8 2] [:append 9 4]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 3]]}
+ {:type :invoke, :f :txn, :value [[:append 8 4] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 5]]}
+ {:type :invoke, :f :txn, :value [[:append 9 6] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 5]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:append 8 6]]}
+ {:type :invoke, :f :txn, :value [[:append 5 1] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 7]]}
+ {:type :invoke, :f :txn, :value [[:append 9 8] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 9]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:append 9 10]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 7]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:append 9 11]]}
+ {:type :invoke, :f :txn, :value [[:append 7 2] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:append 9 12]]}
+ {:type :invoke, :f :txn, :value [[:append 6 1]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 3] [:append 9 13]]}
+ {:type :invoke, :f :txn, :value [[:append 8 8] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 9] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 4]]}
+ {:type :invoke, :f :txn, :value [[:append 8 10] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 14]]}
+ {:type :invoke, :f :txn, :value [[:append 5 2] [:append 4 1]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 15] [:append 8 11]]}
+ {:type :invoke, :f :txn, :value [[:append 8 12] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 5] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:append 8 13]]}
+ {:type :invoke, :f :txn, :value [[:append 9 16]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 14] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 17] [:append 8 15]]}
+ {:type :invoke, :f :txn, :value [[:append 9 18]]}
+ {:type :invoke, :f :txn, :value [[:append 9 19] [:append 7 6]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 20]]}
+ {:type :invoke, :f :txn, :value [[:append 7 7] [:append 8 16]]}
+ {:type :invoke, :f :txn, :value [[:append 9 21] [:append 8 17]]}
+ {:type :invoke, :f :txn, :value [[:append 8 18]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:append 9 22]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 19] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 23] [:append 5 3]]}
+ {:type :invoke, :f :txn, :value [[:append 7 8]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 24]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:append 8 20]]}
+ {:type :invoke, :f :txn, :value [[:append 7 9] [:append 9 25]]}
+ {:type :invoke, :f :txn, :value [[:append 5 4]]}
+ {:type :invoke, :f :txn, :value [[:r 9 nil] [:append 8 21]]}
+ {:type :invoke, :f :txn, :value [[:append 9 26] [:append 9 27]]}
+ {:type :invoke, :f :txn, :value [[:append 9 28] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 29]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 30] [:r 9 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 9 31]]}
+ {:type :invoke, :f :txn, :value [[:append 9 32] [:append 7 10]]}
+ {:type :invoke, :f :txn, :value [[:append 7 11] [:append 10 1]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 22] [:append 5 5]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:append 10 2]]}
+ {:type :invoke, :f :txn, :value [[:append 10 3] [:append 10 4]]}
+ {:type :invoke, :f :txn, :value [[:append 8 23] [:append 8 24]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:append 10 5]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:append 10 6]]}
+ {:type :invoke, :f :txn, :value [[:append 8 25]]}
+ {:type :invoke, :f :txn, :value [[:append 10 7]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 8] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 9] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 26]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 6]]}
+ {:type :invoke, :f :txn, :value [[:append 10 10] [:append 8 27]]}
+ {:type :invoke, :f :txn, :value [[:append 8 28] [:append 7 12]]}
+ {:type :invoke, :f :txn, :value [[:append 10 11]]}
+ {:type :invoke, :f :txn, :value [[:append 10 12] [:append 8 29]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 2]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 13]]}
+ {:type :invoke, :f :txn, :value [[:append 6 3]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 13]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 4 2]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 8 30]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:append 10 14]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:append 7 14]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 15]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 16] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:append 8 31]]}
+ {:type :invoke, :f :txn, :value [[:append 7 15] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 4] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 17]]}
+ {:type :invoke, :f :txn, :value [[:append 10 18]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:append 10 19]]}
+ {:type :invoke, :f :txn, :value [[:append 8 32] [:append 6 5]]}
+ {:type :invoke, :f :txn, :value [[:append 10 20] [:append 10 21]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 6]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:r 8 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 16] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 22] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 23]]}
+ {:type :invoke, :f :txn, :value [[:append 5 7]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 11 1]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 8]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil] [:append 10 24]]}
+ {:type :invoke, :f :txn, :value [[:append 10 25]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 2] [:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 26]]}
+ {:type :invoke, :f :txn, :value [[:append 11 3]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 9] [:append 7 17]]}
+ {:type :invoke, :f :txn, :value [[:append 7 18]]}
+ {:type :invoke, :f :txn, :value [[:append 11 4]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:append 7 19]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 27] [:append 10 28]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 29]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 10 30] [:append 5 10]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:append 10 31]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 5]]}
+ {:type :invoke, :f :txn, :value [[:append 11 6]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 10 nil] [:r 10 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 7]]}
+ {:type :invoke, :f :txn, :value [[:append 10 32] [:append 11 8]]}
+ {:type :invoke, :f :txn, :value [[:append 12 1]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:append 11 9]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 2] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 10]]}
+ {:type :invoke, :f :txn, :value [[:append 12 3] [:append 12 4]]}
+ {:type :invoke, :f :txn, :value [[:append 6 7] [:append 12 5]]}
+ {:type :invoke, :f :txn, :value [[:append 12 6]]}
+ {:type :invoke, :f :txn, :value [[:append 6 8]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:append 12 7]]}
+ {:type :invoke, :f :txn, :value [[:append 3 1]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 8] [:append 12 9]]}
+ {:type :invoke, :f :txn, :value [[:append 7 20]]}
+ {:type :invoke, :f :txn, :value [[:append 12 10]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:append 6 9]]}
+ {:type :invoke, :f :txn, :value [[:append 11 11] [:append 7 21]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:append 12 11]]}
+ {:type :invoke, :f :txn, :value [[:append 6 10] [:append 12 12]]}
+ {:type :invoke, :f :txn, :value [[:append 12 13]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 5 11]]}
+ {:type :invoke, :f :txn, :value [[:append 11 12]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 14]]}
+ {:type :invoke, :f :txn, :value [[:append 11 13]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 12 15]]}
+ {:type :invoke, :f :txn, :value [[:append 7 22] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 14]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 16]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 17] [:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 18]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 11 15]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 16]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 17]]}
+ {:type :invoke, :f :txn, :value [[:append 12 19] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 18] [:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 12 20]]}
+ {:type :invoke, :f :txn, :value [[:append 11 19]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 2 1] [:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 20] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:append 11 21]]}
+ {:type :invoke, :f :txn, :value [[:append 11 22]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 11 23]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 21] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 12 22]]}
+ {:type :invoke, :f :txn, :value [[:append 12 23]]}
+ {:type :invoke, :f :txn, :value [[:append 12 24]]}
+ {:type :invoke, :f :txn, :value [[:append 5 12]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:append 11 24]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 25]]}
+ {:type :invoke, :f :txn, :value [[:append 12 26] [:r 12 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 27]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 12 28]]}
+ {:type :invoke, :f :txn, :value [[:append 12 29]]}
+ {:type :invoke, :f :txn, :value [[:append 11 25]]}
+ {:type :invoke, :f :txn, :value [[:r 12 nil] [:append 7 23]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 12 30]]}
+ {:type :invoke, :f :txn, :value [[:append 12 31]]}
+ {:type :invoke, :f :txn, :value [[:append 12 32] [:append 11 26]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 1] [:append 11 27]]}
+ {:type :invoke, :f :txn, :value [[:append 7 24]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil] [:append 13 2]]}
+ {:type :invoke, :f :txn, :value [[:append 7 25] [:append 6 11]]}
+ {:type :invoke, :f :txn, :value [[:append 13 3] [:r 3 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 4]]}
+ {:type :invoke, :f :txn, :value [[:append 11 28] [:append 13 5]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:append 6 12]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:append 7 26]]}
+ {:type :invoke, :f :txn, :value [[:append 11 29]]}
+ {:type :invoke, :f :txn, :value [[:append 11 30]]}
+ {:type :invoke, :f :txn, :value [[:append 13 6]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:append 11 31]]}
+ {:type :invoke, :f :txn, :value [[:append 6 13]]}
+ {:type :invoke, :f :txn, :value [[:append 6 14]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:append 11 32]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 11 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 27]]}
+ {:type :invoke, :f :txn, :value [[:append 13 7] [:append 13 8]]}
+ {:type :invoke, :f :txn, :value [[:append 13 9] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 1]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:append 7 28]]}
+ {:type :invoke, :f :txn, :value [[:append 13 10] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 11] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 12]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 2] [:append 13 13]]}
+ {:type :invoke, :f :txn, :value [[:append 7 29]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 14]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:append 13 15]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:append 6 15]]}
+ {:type :invoke, :f :txn, :value [[:append 13 16] [:append 14 3]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:append 7 30]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:append 4 3]]}
+ {:type :invoke, :f :txn, :value [[:append 13 17] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 4]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 18]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 5] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 6]]}
+ {:type :invoke, :f :txn, :value [[:append 13 19]]}
+ {:type :invoke, :f :txn, :value [[:r 7 nil] [:append 13 20]]}
+ {:type :invoke, :f :txn, :value [[:append 5 13]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:r 7 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 16] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 21] [:append 7 31]]}
+ {:type :invoke, :f :txn, :value [[:append 13 22]]}
+ {:type :invoke, :f :txn, :value [[:append 13 23] [:append 14 7]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 7 32] [:append 14 8]]}
+ {:type :invoke, :f :txn, :value [[:append 13 24]]}
+ {:type :invoke, :f :txn, :value [[:append 13 25] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:append 6 17]]}
+ {:type :invoke, :f :txn, :value [[:append 13 26] [:append 15 1]]}
+ {:type :invoke, :f :txn, :value [[:append 14 9]]}
+ {:type :invoke, :f :txn, :value [[:append 5 14] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 27] [:append 13 28]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 29] [:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 13 30] [:append 13 31]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil] [:append 13 32]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 10] [:append 6 18]]}
+ {:type :invoke, :f :txn, :value [[:append 14 11]]}
+ {:type :invoke, :f :txn, :value [[:r 13 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 1]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 6 19]]}
+ {:type :invoke, :f :txn, :value [[:append 16 2]]}
+ {:type :invoke, :f :txn, :value [[:append 14 12]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 16 3]]}
+ {:type :invoke, :f :txn, :value [[:append 6 20] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 21] [:append 16 4]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 5]]}
+ {:type :invoke, :f :txn, :value [[:append 14 13]]}
+ {:type :invoke, :f :txn, :value [[:append 16 6]]}
+ {:type :invoke, :f :txn, :value [[:append 16 7] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 14] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 15] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 16]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 22] [:append 16 8]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 14 17]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 9]]}
+ {:type :invoke, :f :txn, :value [[:append 14 18]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 19] [:append 16 10]]}
+ {:type :invoke, :f :txn, :value [[:append 15 2]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 11]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 12]]}
+ {:type :invoke, :f :txn, :value [[:append 16 13]]}
+ {:type :invoke, :f :txn, :value [[:append 16 14]]}
+ {:type :invoke, :f :txn, :value [[:append 14 20]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 16 15]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 16] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 16 17]]}
+ {:type :invoke, :f :txn, :value [[:append 16 18]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 19] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 6 23]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 16 20]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 14 21]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 21]]}
+ {:type :invoke, :f :txn, :value [[:append 16 22]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 23]]}
+ {:type :invoke, :f :txn, :value [[:append 16 24]]}
+ {:type :invoke, :f :txn, :value [[:append 16 25]]}
+ {:type :invoke, :f :txn, :value [[:append 16 26]]}
+ {:type :invoke, :f :txn, :value [[:append 16 27] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 22] [:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil] [:append 16 28]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 29]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:append 15 3]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 30] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 4] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 23]]}
+ {:type :invoke, :f :txn, :value [[:append 15 5]]}
+ {:type :invoke, :f :txn, :value [[:append 16 31]]}
+ {:type :invoke, :f :txn, :value [[:append 14 24]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 16 32]]}
+ {:type :invoke, :f :txn, :value [[:r 16 nil] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:append 14 25]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 24] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil] [:r 16 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 1] [:append 14 26]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 25] [:append 6 26]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 27] [:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 2] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 3] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 27]]}
+ {:type :invoke, :f :txn, :value [[:append 5 15]]}
+ {:type :invoke, :f :txn, :value [[:append 14 28] [:append 17 4]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil] [:append 17 5]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 6] [:append 6 28]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 29]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil] [:append 17 7]]}
+ {:type :invoke, :f :txn, :value [[:append 17 8] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 14 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 17 9]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 30] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 29] [:append 17 10]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 6] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 14 31] [:append 4 4]]}
+ {:type :invoke, :f :txn, :value [[:append 17 11] [:append 17 12]]}
+ {:type :invoke, :f :txn, :value [[:append 14 32]]}
+ {:type :invoke, :f :txn, :value [[:append 17 13] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 14] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 7] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 15]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 17 16]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 1]]}
+ {:type :invoke, :f :txn, :value [[:append 17 17]]}
+ {:type :invoke, :f :txn, :value [[:append 15 8] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 6 30] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 2] [:append 17 18]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:append 17 19]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 17 20]]}
+ {:type :invoke, :f :txn, :value [[:append 17 21]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 17 22]]}
+ {:type :invoke, :f :txn, :value [[:append 18 3] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 6 31]]}
+ {:type :invoke, :f :txn, :value [[:append 17 23] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 17 24]]}
+ {:type :invoke, :f :txn, :value [[:append 17 25]]}
+ {:type :invoke, :f :txn, :value [[:append 15 9]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 15 10]]}
+ {:type :invoke, :f :txn, :value [[:append 17 26] [:append 18 4]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 5]]}
+ {:type :invoke, :f :txn, :value [[:append 17 27] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 11] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 28] [:append 5 16]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 15 12]]}
+ {:type :invoke, :f :txn, :value [[:append 18 6]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:append 18 7]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:append 17 29]]}
+ {:type :invoke, :f :txn, :value [[:append 18 8]]}
+ {:type :invoke, :f :txn, :value [[:r 17 nil] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 30] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 9]]}
+ {:type :invoke, :f :txn, :value [[:append 4 5]]}
+ {:type :invoke, :f :txn, :value [[:append 17 31]]}
+ {:type :invoke, :f :txn, :value [[:append 18 10]]}
+ {:type :invoke, :f :txn, :value [[:append 3 2] [:append 18 11]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 17 32] [:append 6 32]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil] [:r 17 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 12] [:append 19 1]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:append 18 13]]}
+ {:type :invoke, :f :txn, :value [[:append 15 13] [:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 2] [:r 2 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 3]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:append 15 14]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil] [:append 19 4]]}
+ {:type :invoke, :f :txn, :value [[:append 19 5] [:append 19 6]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:append 15 15]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 16] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 4 6] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 14]]}
+ {:type :invoke, :f :txn, :value [[:r 6 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 7] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:append 18 15]]}
+ {:type :invoke, :f :txn, :value [[:append 15 17]]}
+ {:type :invoke, :f :txn, :value [[:append 15 18]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:append 19 8]]}
+ {:type :invoke, :f :txn, :value [[:append 18 16] [:append 4 7]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 9] [:append 19 10]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 11] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 12] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 4 8]]}
+ {:type :invoke, :f :txn, :value [[:append 18 17]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 13]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 18]]}
+ {:type :invoke, :f :txn, :value [[:append 19 14]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:append 19 15]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:append 18 19]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 19]]}
+ {:type :invoke, :f :txn, :value [[:append 18 20]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 21] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 22] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 23]]}
+ {:type :invoke, :f :txn, :value [[:append 15 20] [:append 18 24]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 21] [:append 19 16]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 22]]}
+ {:type :invoke, :f :txn, :value [[:append 19 17]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 18] [:append 19 19]]}
+ {:type :invoke, :f :txn, :value [[:append 19 20]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:append 18 25]]}
+ {:type :invoke, :f :txn, :value [[:append 18 26] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 23]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 21]]}
+ {:type :invoke, :f :txn, :value [[:append 15 24] [:append 18 27]]}
+ {:type :invoke, :f :txn, :value [[:append 18 28]]}
+ {:type :invoke, :f :txn, :value [[:append 19 22]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 23] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 24] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 25] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 25] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:append 19 26]]}
+ {:type :invoke, :f :txn, :value [[:append 19 27] [:append 18 29]]}
+ {:type :invoke, :f :txn, :value [[:append 19 28] [:append 19 29]]}
+ {:type :invoke, :f :txn, :value [[:r 19 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 19 30]]}
+ {:type :invoke, :f :txn, :value [[:append 19 31] [:append 19 32]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:append 15 26]]}
+ {:type :invoke, :f :txn, :value [[:append 20 1] [:append 21 1]]}
+ {:type :invoke, :f :txn, :value [[:append 20 2] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 2]]}
+ {:type :invoke, :f :txn, :value [[:append 15 27] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 3]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 18 30]]}
+ {:type :invoke, :f :txn, :value [[:append 21 4]]}
+ {:type :invoke, :f :txn, :value [[:append 21 5] [:append 18 31]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:append 21 6]]}
+ {:type :invoke, :f :txn, :value [[:append 21 7] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:append 18 32]]}
+ {:type :invoke, :f :txn, :value [[:append 15 28]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 29]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 8] [:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:append 21 9]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 18 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 10] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 11]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 12] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 1]]}
+ {:type :invoke, :f :txn, :value [[:append 22 2] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 3]]}
+ {:type :invoke, :f :txn, :value [[:append 21 13] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 14] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 0 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 4] [:append 22 5]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 6] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 15] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 1 1] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:append 22 7]]}
+ {:type :invoke, :f :txn, :value [[:append 15 30]]}
+ {:type :invoke, :f :txn, :value [[:append 22 8] [:append 15 31]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 16] [:append 20 3]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 9]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 10]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 22 11]]}
+ {:type :invoke, :f :txn, :value [[:append 20 4] [:append 22 12]]}
+ {:type :invoke, :f :txn, :value [[:append 22 13] [:append 21 17]]}
+ {:type :invoke, :f :txn, :value [[:append 21 18] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 14]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 15] [:append 22 16]]}
+ {:type :invoke, :f :txn, :value [[:append 21 19]]}
+ {:type :invoke, :f :txn, :value [[:append 22 17]]}
+ {:type :invoke, :f :txn, :value [[:append 3 3] [:append 21 20]]}
+ {:type :invoke, :f :txn, :value [[:append 21 21] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 22]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 23] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 15 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 5] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 24] [:append 21 25]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 26] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 18] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 15 32] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 6]]}
+ {:type :invoke, :f :txn, :value [[:append 21 27] [:append 21 28]]}
+ {:type :invoke, :f :txn, :value [[:append 22 19]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 7]]}
+ {:type :invoke, :f :txn, :value [[:append 21 29] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 0 nil] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil] [:append 21 30]]}
+ {:type :invoke, :f :txn, :value [[:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 21 31] [:r 21 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 8]]}
+ {:type :invoke, :f :txn, :value [[:append 22 20] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 21]]}
+ {:type :invoke, :f :txn, :value [[:append 21 32]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil] [:append 23 1]]}
+ {:type :invoke, :f :txn, :value [[:append 23 2] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 1] [:append 24 2]]}
+ {:type :invoke, :f :txn, :value [[:append 24 3] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 4] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 5]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 6]]}
+ {:type :invoke, :f :txn, :value [[:append 22 22]]}
+ {:type :invoke, :f :txn, :value [[:append 24 7] [:append 24 8]]}
+ {:type :invoke, :f :txn, :value [[:append 24 9]]}
+ {:type :invoke, :f :txn, :value [[:append 24 10]]}
+ {:type :invoke, :f :txn, :value [[:append 23 3] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 4] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 11] [:append 24 12]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 24 13]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 23 5]]}
+ {:type :invoke, :f :txn, :value [[:append 24 14] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 15]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:append 24 16]]}
+ {:type :invoke, :f :txn, :value [[:append 24 17] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 6]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 20 9]]}
+ {:type :invoke, :f :txn, :value [[:append 23 7] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 18]]}
+ {:type :invoke, :f :txn, :value [[:append 24 19] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 8] [:append 24 20]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil] [:append 5 17]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 23]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 21] [:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 22 24] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 22]]}
+ {:type :invoke, :f :txn, :value [[:append 4 9] [:append 4 10]]}
+ {:type :invoke, :f :txn, :value [[:append 24 23]]}
+ {:type :invoke, :f :txn, :value [[:append 22 25]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 23 9]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 22 26]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 22 27]]}
+ {:type :invoke, :f :txn, :value [[:append 24 24] [:append 24 25]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil] [:append 22 28]]}
+ {:type :invoke, :f :txn, :value [[:append 24 26]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 22 29]]}
+ {:type :invoke, :f :txn, :value [[:append 22 30]]}
+ {:type :invoke, :f :txn, :value [[:r 22 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:append 22 31]]}
+ {:type :invoke, :f :txn, :value [[:append 22 32] [:append 25 1]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 27]]}
+ {:type :invoke, :f :txn, :value [[:append 24 28] [:append 24 29]]}
+ {:type :invoke, :f :txn, :value [[:append 25 2] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 24 30] [:append 24 31]]}
+ {:type :invoke, :f :txn, :value [[:append 24 32] [:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 24 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 10]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 1]]}
+ {:type :invoke, :f :txn, :value [[:append 26 2]]}
+ {:type :invoke, :f :txn, :value [[:append 25 3]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 11]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 26 3]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 4] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 12]]}
+ {:type :invoke, :f :txn, :value [[:append 25 4] [:append 26 5]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 26 6]]}
+ {:type :invoke, :f :txn, :value [[:append 26 7]]}
+ {:type :invoke, :f :txn, :value [[:append 4 11]]}
+ {:type :invoke, :f :txn, :value [[:append 26 8] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 5]]}
+ {:type :invoke, :f :txn, :value [[:append 23 13] [:append 25 6]]}
+ {:type :invoke, :f :txn, :value [[:append 25 7] [:append 25 8]]}
+ {:type :invoke, :f :txn, :value [[:append 25 9] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 9]]}
+ {:type :invoke, :f :txn, :value [[:append 20 10] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 10]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 26 11]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 4 12]]}
+ {:type :invoke, :f :txn, :value [[:append 25 10] [:append 26 12]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 26 13]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:append 20 11]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 14]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 23 15]]}
+ {:type :invoke, :f :txn, :value [[:append 26 14] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 26 15]]}
+ {:type :invoke, :f :txn, :value [[:append 26 16] [:r 3 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 11]]}
+ {:type :invoke, :f :txn, :value [[:append 20 12] [:append 23 16]]}
+ {:type :invoke, :f :txn, :value [[:append 5 18]]}
+ {:type :invoke, :f :txn, :value [[:append 20 13] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 17] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:append 25 12]]}
+ {:type :invoke, :f :txn, :value [[:append 4 13] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 18]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 20 14]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 19] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 15]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 13] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 19]]}
+ {:type :invoke, :f :txn, :value [[:append 26 20]]}
+ {:type :invoke, :f :txn, :value [[:append 26 21] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 17] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 16] [:append 26 22]]}
+ {:type :invoke, :f :txn, :value [[:append 26 23]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 26 24]]}
+ {:type :invoke, :f :txn, :value [[:append 26 25] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 26 26]]}
+ {:type :invoke, :f :txn, :value [[:append 26 27] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 14] [:append 26 28]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 26 29]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil] [:append 26 30]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 15] [:append 26 31]]}
+ {:type :invoke, :f :txn, :value [[:append 26 32]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 18] [:r 26 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:append 23 19]]}
+ {:type :invoke, :f :txn, :value [[:append 27 1] [:append 20 17]]}
+ {:type :invoke, :f :txn, :value [[:append 27 2] [:append 27 3]]}
+ {:type :invoke, :f :txn, :value [[:append 27 4] [:append 5 20]]}
+ {:type :invoke, :f :txn, :value [[:append 27 5]]}
+ {:type :invoke, :f :txn, :value [[:append 23 20]]}
+ {:type :invoke, :f :txn, :value [[:append 27 6] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 7] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 21]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 16] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 18] [:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 22]]}
+ {:type :invoke, :f :txn, :value [[:append 27 8]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:append 27 9]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 10]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 17]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 23] [:append 27 11]]}
+ {:type :invoke, :f :txn, :value [[:append 27 12] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 18]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:append 25 19]]}
+ {:type :invoke, :f :txn, :value [[:append 25 20] [:append 27 13]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 21]]}
+ {:type :invoke, :f :txn, :value [[:append 27 14] [:r 3 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:append 25 22]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:append 25 23]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil] [:append 25 24]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 15] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 16]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:append 23 24]]}
+ {:type :invoke, :f :txn, :value [[:append 25 25]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 2 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 26]]}
+ {:type :invoke, :f :txn, :value [[:append 27 17]]}
+ {:type :invoke, :f :txn, :value [[:append 25 27] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:append 27 18]]}
+ {:type :invoke, :f :txn, :value [[:append 27 19]]}
+ {:type :invoke, :f :txn, :value [[:append 27 20]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 25] [:append 5 21]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 26] [:append 27 21]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 22]]}
+ {:type :invoke, :f :txn, :value [[:append 5 22] [:append 27 23]]}
+ {:type :invoke, :f :txn, :value [[:r 3 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 24] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 25 28] [:append 27 25]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:r 25 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 27] [:append 25 29]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:append 25 30]]}
+ {:type :invoke, :f :txn, :value [[:r 25 nil] [:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 26] [:append 25 31]]}
+ {:type :invoke, :f :txn, :value [[:append 27 27]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:append 25 32]]}
+ {:type :invoke, :f :txn, :value [[:r 27 nil] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 28]]}
+ {:type :invoke, :f :txn, :value [[:append 27 28] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 1] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 19] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 2]]}
+ {:type :invoke, :f :txn, :value [[:append 28 3] [:append 23 29]]}
+ {:type :invoke, :f :txn, :value [[:append 28 4] [:r 27 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 29] [:append 23 30]]}
+ {:type :invoke, :f :txn, :value [[:append 28 5] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 27 30]]}
+ {:type :invoke, :f :txn, :value [[:append 28 6]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil] [:append 27 31]]}
+ {:type :invoke, :f :txn, :value [[:append 27 32] [:append 28 7]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 8]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 9]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil] [:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 10] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 1] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil] [:append 23 31]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 2] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 3] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 11]]}
+ {:type :invoke, :f :txn, :value [[:append 29 4]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 23 32] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 23] [:append 29 5]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:r 23 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 6] [:append 29 7]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 12]]}
+ {:type :invoke, :f :txn, :value [[:append 29 8]]}
+ {:type :invoke, :f :txn, :value [[:append 29 9]]}
+ {:type :invoke, :f :txn, :value [[:append 28 13] [:append 29 10]]}
+ {:type :invoke, :f :txn, :value [[:r 23 nil] [:append 28 14]]}
+ {:type :invoke, :f :txn, :value [[:append 30 1] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 11]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 28 15]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 16] [:append 29 12]]}
+ {:type :invoke, :f :txn, :value [[:append 28 17]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 18]]}
+ {:type :invoke, :f :txn, :value [[:append 29 13] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 14]]}
+ {:type :invoke, :f :txn, :value [[:append 30 2]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 19]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:append 28 20]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 28 21]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 20]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 15]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 3]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 28 22]]}
+ {:type :invoke, :f :txn, :value [[:append 28 23]]}
+ {:type :invoke, :f :txn, :value [[:append 29 16] [:append 28 24]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 17] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 30 4]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil] [:append 29 18]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 29 19]]}
+ {:type :invoke, :f :txn, :value [[:append 3 4]]}
+ {:type :invoke, :f :txn, :value [[:append 29 20] [:append 30 5]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 21] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 24]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 22] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 25] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:append 29 23]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 21]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 3 5]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 26]]}
+ {:type :invoke, :f :txn, :value [[:append 29 24]]}
+ {:type :invoke, :f :txn, :value [[:append 29 25]]}
+ {:type :invoke, :f :txn, :value [[:append 29 26]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 27]]}
+ {:type :invoke, :f :txn, :value [[:append 28 28] [:append 29 27]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 28] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 6]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 22]]}
+ {:type :invoke, :f :txn, :value [[:append 28 29]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 25] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 30]]}
+ {:type :invoke, :f :txn, :value [[:append 20 23] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 7] [:append 29 29]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:append 28 31]]}
+ {:type :invoke, :f :txn, :value [[:append 5 26] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 28 32] [:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 28 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil] [:append 30 8]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 5 27]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 30]]}
+ {:type :invoke, :f :txn, :value [[:append 29 31] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 29 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 29 32] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 1] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 1] [:append 20 24]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 31 2]]}
+ {:type :invoke, :f :txn, :value [[:append 32 2] [:append 3 6]]}
+ {:type :invoke, :f :txn, :value [[:append 31 3] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 9]]}
+ {:type :invoke, :f :txn, :value [[:append 31 4] [:append 31 5]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:append 32 3]]}
+ {:type :invoke, :f :txn, :value [[:append 20 25] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 4] [:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 30 10]]}
+ {:type :invoke, :f :txn, :value [[:append 32 5]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 0 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 6]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:append 5 28]]}
+ {:type :invoke, :f :txn, :value [[:append 5 29] [:append 2 2]]}
+ {:type :invoke, :f :txn, :value [[:append 31 7] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 8]]}
+ {:type :invoke, :f :txn, :value [[:append 32 6] [:append 32 7]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 8]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 9]]}
+ {:type :invoke, :f :txn, :value [[:append 30 11] [:append 31 10]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 11] [:append 30 12]]}
+ {:type :invoke, :f :txn, :value [[:append 30 13] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 9]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 10] [:append 31 12]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:append 32 11]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 12] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 13]]}
+ {:type :invoke, :f :txn, :value [[:append 5 30]]}
+ {:type :invoke, :f :txn, :value [[:append 31 14] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 31 15]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 32 13]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 16]]}
+ {:type :invoke, :f :txn, :value [[:append 32 14]]}
+ {:type :invoke, :f :txn, :value [[:append 32 15]]}
+ {:type :invoke, :f :txn, :value [[:append 32 16] [:append 32 17]]}
+ {:type :invoke, :f :txn, :value [[:append 30 14] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 17]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:append 32 18]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 19] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 5 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 15]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 32 20]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 21] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 26] [:append 32 22]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 32 23] [:append 5 31]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:append 31 18]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 16]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:append 32 24]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 17]]}
+ {:type :invoke, :f :txn, :value [[:append 31 19]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:append 5 32]]}
+ {:type :invoke, :f :txn, :value [[:append 20 27]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:append 2 3]]}
+ {:type :invoke, :f :txn, :value [[:append 32 25]]}
+ {:type :invoke, :f :txn, :value [[:append 32 26] [:append 32 27]]}
+ {:type :invoke, :f :txn, :value [[:append 32 28] [:append 32 29]]}
+ {:type :invoke, :f :txn, :value [[:append 32 30] [:append 32 31]]}
+ {:type :invoke, :f :txn, :value [[:append 31 20]]}
+ {:type :invoke, :f :txn, :value [[:append 31 21] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 22]]}
+ {:type :invoke, :f :txn, :value [[:append 32 32] [:r 32 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 28] [:append 20 29]]}
+ {:type :invoke, :f :txn, :value [[:r 32 nil] [:append 31 23]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 24] [:append 31 25]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 1]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 2] [:append 33 3]]}
+ {:type :invoke, :f :txn, :value [[:append 33 4] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 3 7] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 26]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 5] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 3 8] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil] [:append 31 27]]}
+ {:type :invoke, :f :txn, :value [[:append 33 6] [:append 4 14]]}
+ {:type :invoke, :f :txn, :value [[:append 33 7] [:append 33 8]]}
+ {:type :invoke, :f :txn, :value [[:append 33 9]]}
+ {:type :invoke, :f :txn, :value [[:append 33 10]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:append 33 11]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil] [:append 33 12]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 20 30]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil] [:append 33 13]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:append 31 28]]}
+ {:type :invoke, :f :txn, :value [[:append 31 29]]}
+ {:type :invoke, :f :txn, :value [[:append 33 14] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 15] [:append 20 31]]}
+ {:type :invoke, :f :txn, :value [[:append 31 30]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 31 31] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 16]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 33 17]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 18]]}
+ {:type :invoke, :f :txn, :value [[:append 33 19] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 20] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 21]]}
+ {:type :invoke, :f :txn, :value [[:r 31 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 22]]}
+ {:type :invoke, :f :txn, :value [[:append 20 32]]}
+ {:type :invoke, :f :txn, :value [[:append 33 23]]}
+ {:type :invoke, :f :txn, :value [[:append 33 24] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 18] [:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 25]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 33 26]]}
+ {:type :invoke, :f :txn, :value [[:append 33 27] [:append 33 28]]}
+ {:type :invoke, :f :txn, :value [[:append 31 32] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 33 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 29]]}
+ {:type :invoke, :f :txn, :value [[:append 33 30] [:append 33 31]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 31 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 33 32] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:append 36 1]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:append 35 1]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 36 2]]}
+ {:type :invoke, :f :txn, :value [[:r 20 nil] [:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:append 36 3]]}
+ {:type :invoke, :f :txn, :value [[:append 35 2]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 4]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 5]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:append 35 3]]}
+ {:type :invoke, :f :txn, :value [[:append 36 6] [:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 7] [:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 8]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:append 36 9]]}
+ {:type :invoke, :f :txn, :value [[:append 36 10] [:append 36 11]]}
+ {:type :invoke, :f :txn, :value [[:append 36 12]]}
+ {:type :invoke, :f :txn, :value [[:append 35 4] [:append 36 13]]}
+ {:type :invoke, :f :txn, :value [[:append 35 5] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 35 6]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 14]]}
+ {:type :invoke, :f :txn, :value [[:append 36 15] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 7]]}
+ {:type :invoke, :f :txn, :value [[:append 36 16]]}
+ {:type :invoke, :f :txn, :value [[:append 35 8] [:append 30 19]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 17]]}
+ {:type :invoke, :f :txn, :value [[:append 36 18]]}
+ {:type :invoke, :f :txn, :value [[:append 30 20]]}
+ {:type :invoke, :f :txn, :value [[:append 36 19]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 9]]}
+ {:type :invoke, :f :txn, :value [[:append 36 20]]}
+ {:type :invoke, :f :txn, :value [[:append 36 21] [:append 36 22]]}
+ {:type :invoke, :f :txn, :value [[:append 36 23]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil] [:append 34 1]]}
+ {:type :invoke, :f :txn, :value [[:append 30 21] [:append 36 24]]}
+ {:type :invoke, :f :txn, :value [[:append 36 25] [:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 26]]}
+ {:type :invoke, :f :txn, :value [[:append 36 27] [:append 36 28]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 10] [:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 2]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil] [:append 36 29]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 30] [:append 30 22]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil] [:append 36 31]]}
+ {:type :invoke, :f :txn, :value [[:r 36 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 36 32] [:append 35 11]]}
+ {:type :invoke, :f :txn, :value [[:append 30 23] [:append 30 24]]}
+ {:type :invoke, :f :txn, :value [[:append 37 1]]}
+ {:type :invoke, :f :txn, :value [[:append 30 25] [:append 38 1]]}
+ {:type :invoke, :f :txn, :value [[:append 35 12] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 2]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 3] [:append 30 26]]}
+ {:type :invoke, :f :txn, :value [[:append 38 4] [:append 35 13]]}
+ {:type :invoke, :f :txn, :value [[:append 35 14] [:append 38 5]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 30 27] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 6] [:append 38 7]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil] [:append 38 8]]}
+ {:type :invoke, :f :txn, :value [[:append 38 9] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 15] [:append 30 28]]}
+ {:type :invoke, :f :txn, :value [[:append 34 3] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 16]]}
+ {:type :invoke, :f :txn, :value [[:append 38 10]]}
+ {:type :invoke, :f :txn, :value [[:append 38 11]]}
+ {:type :invoke, :f :txn, :value [[:append 38 12]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 13]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 14]]}
+ {:type :invoke, :f :txn, :value [[:append 38 15] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 17]]}
+ {:type :invoke, :f :txn, :value [[:append 4 15]]}
+ {:type :invoke, :f :txn, :value [[:append 38 16] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 17] [:append 38 18]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 18] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 2] [:append 38 19]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 20] [:append 30 29]]}
+ {:type :invoke, :f :txn, :value [[:append 38 21]]}
+ {:type :invoke, :f :txn, :value [[:append 38 22]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 3]]}
+ {:type :invoke, :f :txn, :value [[:append 37 4]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:append 30 30]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 5] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 23]]}
+ {:type :invoke, :f :txn, :value [[:append 37 6] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 19] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 7] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 24] [:r 30 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 30 nil] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 20]]}
+ {:type :invoke, :f :txn, :value [[:append 38 25] [:append 38 26]]}
+ {:type :invoke, :f :txn, :value [[:append 30 31]]}
+ {:type :invoke, :f :txn, :value [[:append 38 27] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:append 35 21]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 28]]}
+ {:type :invoke, :f :txn, :value [[:append 30 32]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 22] [:append 38 29]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 23] [:append 39 1]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 1 2]]}
+ {:type :invoke, :f :txn, :value [[:append 38 30] [:append 39 2]]}
+ {:type :invoke, :f :txn, :value [[:append 38 31] [:r 38 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 38 32]]}
+ {:type :invoke, :f :txn, :value [[:append 39 3]]}
+ {:type :invoke, :f :txn, :value [[:append 35 24]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 25] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 38 nil] [:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 4]]}
+ {:type :invoke, :f :txn, :value [[:append 35 26]]}
+ {:type :invoke, :f :txn, :value [[:append 3 9]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 39 5]]}
+ {:type :invoke, :f :txn, :value [[:append 40 1] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil] [:append 35 27]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:append 35 28]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 40 2] [:append 35 29]]}
+ {:type :invoke, :f :txn, :value [[:append 39 6]]}
+ {:type :invoke, :f :txn, :value [[:append 40 3] [:append 35 30]]}
+ {:type :invoke, :f :txn, :value [[:append 35 31]]}
+ {:type :invoke, :f :txn, :value [[:append 37 8]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 35 32]]}
+ {:type :invoke, :f :txn, :value [[:append 39 7] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:r 35 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 35 nil] [:append 39 8]]}
+ {:type :invoke, :f :txn, :value [[:append 40 4]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 41 1]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 9] [:append 41 2]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:append 3 10]]}
+ {:type :invoke, :f :txn, :value [[:append 40 5]]}
+ {:type :invoke, :f :txn, :value [[:append 40 6] [:append 40 7]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:append 40 8]]}
+ {:type :invoke, :f :txn, :value [[:append 39 9] [:append 41 3]]}
+ {:type :invoke, :f :txn, :value [[:append 40 9] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 10] [:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 40 10]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:append 40 11]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 4]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 37 10]]}
+ {:type :invoke, :f :txn, :value [[:append 40 12]]}
+ {:type :invoke, :f :txn, :value [[:append 40 13] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 11] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 40 14] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 4] [:append 4 16]]}
+ {:type :invoke, :f :txn, :value [[:append 39 11] [:append 40 15]]}
+ {:type :invoke, :f :txn, :value [[:append 40 16] [:append 41 5]]}
+ {:type :invoke, :f :txn, :value [[:append 40 17] [:append 40 18]]}
+ {:type :invoke, :f :txn, :value [[:append 40 19] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 39 12]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:append 41 6]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:append 39 13]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 40 20] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 14] [:append 40 21]]}
+ {:type :invoke, :f :txn, :value [[:append 40 22] [:append 40 23]]}
+ {:type :invoke, :f :txn, :value [[:append 40 24]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 40 25]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 39 15]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:append 39 16]]}
+ {:type :invoke, :f :txn, :value [[:append 40 26] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 17] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 7] [:append 40 27]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 40 28]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil] [:append 40 29]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 8]]}
+ {:type :invoke, :f :txn, :value [[:append 3 11] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 4 17] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 40 30]]}
+ {:type :invoke, :f :txn, :value [[:append 41 9] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 10] [:append 40 31]]}
+ {:type :invoke, :f :txn, :value [[:append 41 11] [:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 12] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 40 32] [:append 41 13]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 40 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:append 39 18]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 14] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 19]]}
+ {:type :invoke, :f :txn, :value [[:append 42 1]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 2]]}
+ {:type :invoke, :f :txn, :value [[:append 42 3] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 4] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 5] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 6]]}
+ {:type :invoke, :f :txn, :value [[:append 41 15]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 7] [:append 42 8]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 9] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:append 39 20]]}
+ {:type :invoke, :f :txn, :value [[:append 41 16] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 10] [:append 42 11]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 12] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 21]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:append 41 17]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:append 39 22]]}
+ {:type :invoke, :f :txn, :value [[:append 41 18] [:append 42 13]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 12] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 14] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:append 42 15]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:append 42 16]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:append 39 23]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:append 39 24]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:append 39 25]]}
+ {:type :invoke, :f :txn, :value [[:append 42 17] [:append 4 18]]}
+ {:type :invoke, :f :txn, :value [[:append 42 18]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:append 42 19]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 20] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 21]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 13]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:append 41 19]]}
+ {:type :invoke, :f :txn, :value [[:append 42 22]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 23] [:append 41 20]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:append 41 21]]}
+ {:type :invoke, :f :txn, :value [[:append 41 22] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 26]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 27] [:append 37 14]]}
+ {:type :invoke, :f :txn, :value [[:append 39 28] [:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 24]]}
+ {:type :invoke, :f :txn, :value [[:append 42 25] [:append 42 26]]}
+ {:type :invoke, :f :txn, :value [[:append 42 27]]}
+ {:type :invoke, :f :txn, :value [[:append 42 28]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 29]]}
+ {:type :invoke, :f :txn, :value [[:append 3 12] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 42 29] [:append 41 23]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:append 42 30]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 24]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil] [:append 39 30]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 15]]}
+ {:type :invoke, :f :txn, :value [[:r 42 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 39 31] [:append 42 31]]}
+ {:type :invoke, :f :txn, :value [[:append 42 32]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 1]]}
+ {:type :invoke, :f :txn, :value [[:append 41 25]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 16]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:append 41 26]]}
+ {:type :invoke, :f :txn, :value [[:append 37 17]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 41 27]]}
+ {:type :invoke, :f :txn, :value [[:append 43 2]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 3]]}
+ {:type :invoke, :f :txn, :value [[:append 43 4]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:append 43 5]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 28]]}
+ {:type :invoke, :f :txn, :value [[:append 41 29]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 37 18]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 43 6]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 43 7]]}
+ {:type :invoke, :f :txn, :value [[:append 41 30]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:append 43 8]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 3 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 43 9]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 19] [:append 37 20]]}
+ {:type :invoke, :f :txn, :value [[:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 43 10]]}
+ {:type :invoke, :f :txn, :value [[:append 39 32] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 11] [:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil] [:append 41 31]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 39 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 41 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 41 32] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 21]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 12] [:append 43 13]]}
+ {:type :invoke, :f :txn, :value [[:append 43 14] [:append 43 15]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 16] [:append 43 17]]}
+ {:type :invoke, :f :txn, :value [[:append 43 18]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 45 1]]}
+ {:type :invoke, :f :txn, :value [[:append 44 1]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 19] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 44 2]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 22] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:append 45 2]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 20] [:append 34 5]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 21] [:append 37 23]]}
+ {:type :invoke, :f :txn, :value [[:append 37 24]]}
+ {:type :invoke, :f :txn, :value [[:append 37 25]]}
+ {:type :invoke, :f :txn, :value [[:append 43 22]]}
+ {:type :invoke, :f :txn, :value [[:append 45 3]]}
+ {:type :invoke, :f :txn, :value [[:append 43 23]]}
+ {:type :invoke, :f :txn, :value [[:append 45 4]]}
+ {:type :invoke, :f :txn, :value [[:append 45 5] [:append 45 6]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 24] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 25]]}
+ {:type :invoke, :f :txn, :value [[:append 43 26] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 7]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 43 27]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 2 nil] [:append 43 28]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:append 43 29]]}
+ {:type :invoke, :f :txn, :value [[:append 43 30]]}
+ {:type :invoke, :f :txn, :value [[:append 45 8]]}
+ {:type :invoke, :f :txn, :value [[:r 43 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil] [:append 4 19]]}
+ {:type :invoke, :f :txn, :value [[:append 45 9]]}
+ {:type :invoke, :f :txn, :value [[:append 45 10]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 11]]}
+ {:type :invoke, :f :txn, :value [[:append 45 12]]}
+ {:type :invoke, :f :txn, :value [[:append 43 31] [:r 43 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 43 32] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 13] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:append 46 1]]}
+ {:type :invoke, :f :txn, :value [[:append 46 2] [:append 45 14]]}
+ {:type :invoke, :f :txn, :value [[:append 46 3]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 4] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 5]]}
+ {:type :invoke, :f :txn, :value [[:append 46 6] [:append 46 7]]}
+ {:type :invoke, :f :txn, :value [[:append 45 15]]}
+ {:type :invoke, :f :txn, :value [[:append 46 8] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 9] [:append 45 16]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 10] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:append 44 3]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 17] [:append 44 4]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 6]]}
+ {:type :invoke, :f :txn, :value [[:append 46 11]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 18]]}
+ {:type :invoke, :f :txn, :value [[:append 46 12]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:append 45 19]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 13]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 5]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 26] [:append 45 20]]}
+ {:type :invoke, :f :txn, :value [[:append 45 21] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil] [:append 46 14]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:append 46 15]]}
+ {:type :invoke, :f :txn, :value [[:append 46 16]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:append 46 17]]}
+ {:type :invoke, :f :txn, :value [[:append 46 18] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 19] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 7] [:append 46 20]]}
+ {:type :invoke, :f :txn, :value [[:append 46 21] [:append 44 6]]}
+ {:type :invoke, :f :txn, :value [[:append 45 22]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:append 46 22]]}
+ {:type :invoke, :f :txn, :value [[:append 46 23] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 24] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 25]]}
+ {:type :invoke, :f :txn, :value [[:append 46 26] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 27] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:append 44 7]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil] [:append 45 23]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 27] [:append 46 28]]}
+ {:type :invoke, :f :txn, :value [[:append 45 24] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 2 4]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 29] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 30] [:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 31]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 46 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 46 32]]}
+ {:type :invoke, :f :txn, :value [[:append 45 25] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 2 nil] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 1] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 26]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:append 47 2]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 3]]}
+ {:type :invoke, :f :txn, :value [[:append 47 4] [:append 37 28]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:append 47 5]]}
+ {:type :invoke, :f :txn, :value [[:append 47 6]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil] [:append 47 7]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 27]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 8] [:append 37 29]]}
+ {:type :invoke, :f :txn, :value [[:append 47 9]]}
+ {:type :invoke, :f :txn, :value [[:append 47 10]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 11]]}
+ {:type :invoke, :f :txn, :value [[:append 37 30]]}
+ {:type :invoke, :f :txn, :value [[:append 47 12]]}
+ {:type :invoke, :f :txn, :value [[:append 47 13] [:append 44 8]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 28]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 14] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 15]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 31]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:append 47 16]]}
+ {:type :invoke, :f :txn, :value [[:append 47 17]]}
+ {:type :invoke, :f :txn, :value [[:append 44 9] [:append 45 29]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 45 30]]}
+ {:type :invoke, :f :txn, :value [[:append 44 10] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 18] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 19] [:append 45 31]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:append 47 20]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 11]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 12] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 45 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 37 32] [:append 47 21]]}
+ {:type :invoke, :f :txn, :value [[:append 45 32]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 48 1]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 13] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 2]]}
+ {:type :invoke, :f :txn, :value [[:append 47 22] [:append 48 3]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 23] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 14]]}
+ {:type :invoke, :f :txn, :value [[:append 47 24] [:append 48 4]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 25]]}
+ {:type :invoke, :f :txn, :value [[:r 37 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 26]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 5]]}
+ {:type :invoke, :f :txn, :value [[:append 48 6] [:append 47 27]]}
+ {:type :invoke, :f :txn, :value [[:append 47 28]]}
+ {:type :invoke, :f :txn, :value [[:append 47 29]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 49 1] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 30] [:r 47 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 7]]}
+ {:type :invoke, :f :txn, :value [[:append 47 31]]}
+ {:type :invoke, :f :txn, :value [[:append 44 15] [:append 49 2]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 47 32] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 8]]}
+ {:type :invoke, :f :txn, :value [[:append 48 9]]}
+ {:type :invoke, :f :txn, :value [[:append 49 3]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 16] [:append 48 10]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 34 8]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 1]]}
+ {:type :invoke, :f :txn, :value [[:append 44 17]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 11]]}
+ {:type :invoke, :f :txn, :value [[:append 50 2]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 48 12]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 50 3]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 4] [:append 44 18]]}
+ {:type :invoke, :f :txn, :value [[:append 44 19] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 5]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 48 13]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 50 6]]}
+ {:type :invoke, :f :txn, :value [[:append 48 14]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 20]]}
+ {:type :invoke, :f :txn, :value [[:append 44 21]]}
+ {:type :invoke, :f :txn, :value [[:append 48 15]]}
+ {:type :invoke, :f :txn, :value [[:append 50 7]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:append 50 8]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 16]]}
+ {:type :invoke, :f :txn, :value [[:append 48 17]]}
+ {:type :invoke, :f :txn, :value [[:append 50 9]]}
+ {:type :invoke, :f :txn, :value [[:append 50 10] [:r 3 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 9]]}
+ {:type :invoke, :f :txn, :value [[:append 48 18] [:append 49 4]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:append 50 11]]}
+ {:type :invoke, :f :txn, :value [[:append 50 12] [:append 48 19]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 22]]}
+ {:type :invoke, :f :txn, :value [[:append 50 13]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:append 44 23]]}
+ {:type :invoke, :f :txn, :value [[:append 50 14] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 20]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 21] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 1 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 24]]}
+ {:type :invoke, :f :txn, :value [[:append 50 15] [:append 50 16]]}
+ {:type :invoke, :f :txn, :value [[:append 50 17]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 18] [:append 2 5]]}
+ {:type :invoke, :f :txn, :value [[:append 50 19] [:append 3 13]]}
+ {:type :invoke, :f :txn, :value [[:append 50 20] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 21]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil] [:append 4 20]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:append 48 22]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 25] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 22]]}
+ {:type :invoke, :f :txn, :value [[:append 48 23] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 23]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 48 24]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:append 50 24]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 25] [:append 44 26]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 50 26]]}
+ {:type :invoke, :f :txn, :value [[:append 50 27] [:append 50 28]]}
+ {:type :invoke, :f :txn, :value [[:append 50 29] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:append 44 27]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 25] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 48 26]]}
+ {:type :invoke, :f :txn, :value [[:append 50 30] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 28] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 3 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 27] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 28] [:append 44 29]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:append 34 10]]}
+ {:type :invoke, :f :txn, :value [[:append 50 31] [:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil] [:append 48 29]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 30]]}
+ {:type :invoke, :f :txn, :value [[:append 50 32]]}
+ {:type :invoke, :f :txn, :value [[:r 50 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 48 31] [:append 49 5]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 48 32]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:append 51 1]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 51 2]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 51 3]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 51 4]]}
+ {:type :invoke, :f :txn, :value [[:append 49 6]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 51 5]]}
+ {:type :invoke, :f :txn, :value [[:append 51 6]]}
+ {:type :invoke, :f :txn, :value [[:append 51 7] [:append 51 8]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 11]]}
+ {:type :invoke, :f :txn, :value [[:append 51 9] [:append 51 10]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 34 12]]}
+ {:type :invoke, :f :txn, :value [[:append 51 11]]}
+ {:type :invoke, :f :txn, :value [[:append 52 1] [:append 52 2]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 51 12]]}
+ {:type :invoke, :f :txn, :value [[:r 44 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 51 13]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 1 3] [:append 52 3]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 44 30]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 52 4]]}
+ {:type :invoke, :f :txn, :value [[:append 51 14] [:append 51 15]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 44 31] [:append 44 32]]}
+ {:type :invoke, :f :txn, :value [[:append 52 5]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 53 1]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:append 51 16]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 51 17]]}
+ {:type :invoke, :f :txn, :value [[:append 51 18]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:append 52 6]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 52 7]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 51 19] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 53 2]]}
+ {:type :invoke, :f :txn, :value [[:append 51 20] [:append 53 3]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 4 21]]}
+ {:type :invoke, :f :txn, :value [[:append 51 21]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 13]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 52 8] [:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 51 22]]}
+ {:type :invoke, :f :txn, :value [[:append 51 23]]}
+ {:type :invoke, :f :txn, :value [[:append 52 9]]}
+ {:type :invoke, :f :txn, :value [[:append 51 24] [:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 51 25] [:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 4 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 53 4] [:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 51 26] [:append 51 27]]}
+ {:type :invoke, :f :txn, :value [[:append 52 10] [:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 14]]}
+ {:type :invoke, :f :txn, :value [[:append 51 28] [:r 51 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 51 nil] [:append 51 29]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil] [:append 51 30]]}
+ {:type :invoke, :f :txn, :value [[:append 53 5]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 51 31] [:append 51 32]]}
+ {:type :invoke, :f :txn, :value [[:append 49 7]]}
+ {:type :invoke, :f :txn, :value [[:append 53 6]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 2 6] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 52 11]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil] [:append 54 1]]}
+ {:type :invoke, :f :txn, :value [[:append 52 12]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 52 13]]}
+ {:type :invoke, :f :txn, :value [[:append 54 2]]}
+ {:type :invoke, :f :txn, :value [[:append 52 14]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:append 54 3]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 54 4]]}
+ {:type :invoke, :f :txn, :value [[:append 53 7] [:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 54 5] [:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 54 6] [:append 52 15]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 52 16]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 52 17]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 54 7] [:append 54 8]]}
+ {:type :invoke, :f :txn, :value [[:append 49 8]]}
+ {:type :invoke, :f :txn, :value [[:append 54 9] [:append 53 8]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:append 54 10]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 54 11]]}
+ {:type :invoke, :f :txn, :value [[:append 52 18] [:append 54 12]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 53 9]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:append 54 13]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:append 54 14]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil] [:append 54 15]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 52 19]]}
+ {:type :invoke, :f :txn, :value [[:append 53 10] [:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 15]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:append 34 16]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 54 16]]}
+ {:type :invoke, :f :txn, :value [[:append 54 17] [:append 54 18]]}
+ {:type :invoke, :f :txn, :value [[:append 54 19] [:append 53 11]]}
+ {:type :invoke, :f :txn, :value [[:append 34 17] [:append 54 20]]}
+ {:type :invoke, :f :txn, :value [[:append 54 21] [:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 52 20] [:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 53 12] [:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 54 22] [:append 54 23]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 54 24]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:append 54 25]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 54 26]]}
+ {:type :invoke, :f :txn, :value [[:append 54 27]]}
+ {:type :invoke, :f :txn, :value [[:append 52 21]]}
+ {:type :invoke, :f :txn, :value [[:append 54 28] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 54 29]]}
+ {:type :invoke, :f :txn, :value [[:append 52 22] [:append 52 23]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 54 30]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 49 nil] [:append 52 24]]}
+ {:type :invoke, :f :txn, :value [[:append 54 31]]}
+ {:type :invoke, :f :txn, :value [[:r 54 nil] [:append 52 25]]}
+ {:type :invoke, :f :txn, :value [[:append 53 13]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 52 26] [:append 54 32]]}
+ {:type :invoke, :f :txn, :value [[:append 52 27]]}
+ {:type :invoke, :f :txn, :value [[:append 1 4]]}
+ {:type :invoke, :f :txn, :value [[:append 55 1]]}
+ {:type :invoke, :f :txn, :value [[:append 53 14]]}
+ {:type :invoke, :f :txn, :value [[:append 34 18]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil] [:append 53 15]]}
+ {:type :invoke, :f :txn, :value [[:append 52 28]]}
+ {:type :invoke, :f :txn, :value [[:append 55 2] [:append 53 16]]}
+ {:type :invoke, :f :txn, :value [[:append 55 3]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil] [:r 52 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 34 19]]}
+ {:type :invoke, :f :txn, :value [[:append 55 4]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 55 5] [:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil] [:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 52 29] [:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil] [:append 52 30]]}
+ {:type :invoke, :f :txn, :value [[:append 55 6] [:append 52 31]]}
+ {:type :invoke, :f :txn, :value [[:append 55 7] [:r 34 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 52 nil] [:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 55 8]]}
+ {:type :invoke, :f :txn, :value [[:append 53 17] [:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 53 18] [:append 52 32]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 53 19] [:append 55 9]]}
+ {:type :invoke, :f :txn, :value [[:r 34 nil] [:r 56 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 55 10] [:append 56 1]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil] [:append 55 11]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 55 12] [:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 49 9] [:append 55 13]]}
+ {:type :invoke, :f :txn, :value [[:append 55 14]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 55 15]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 56 2] [:append 55 16]]}
+ {:type :invoke, :f :txn, :value [[:append 55 17] [:r 49 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ {:type :invoke, :f :txn, :value [[:append 55 18] [:append 56 3]]}
+ {:type :invoke, :f :txn, :value [[:append 55 19] [:append 55 20]]}
+ {:type :invoke, :f :txn, :value [[:append 4 22]]}
+ {:type :invoke, :f :txn, :value [[:append 56 4]]}
+ {:type :invoke, :f :txn, :value [[:append 55 21] [:append 56 5]]}
+ {:type :invoke, :f :txn, :value [[:r 55 nil]]}
+ )
