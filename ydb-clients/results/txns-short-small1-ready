@@ -1,0 +1,1 @@
+[{:type :ok,  :f :txn ,:value [[:r 49 nil] [:r 47 nil] [:r 43 nil] [:append 50 1] [:append 49 3]]} {:type :ok,  :f :txn ,:value [[:r 50 nil] [:r 50 nil] [:append 50 3] [:append 50 2] [:append 47 2]]} {:type :ok,  :f :txn ,:value [[:r 50 nil] [:r 50 nil] [:append 46 2]]}]

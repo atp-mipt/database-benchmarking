@@ -1,0 +1,76 @@
+({:type :invoke,
+  :f :txn,
+  :value
+  [[:r 49 nil]
+   [:append 47 1]
+   [:append 49 1]
+   [:r 48 nil]
+   [:r 49 nil]
+   [:append 45 1]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:r 46 nil] [:append 49 2] [:r 49 nil] [:r 48 nil] [:r 43 nil]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:r 49 nil] [:append 46 1] [:append 48 1] [:r 48 nil] [:r 47 nil]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:r 49 nil] [:r 47 nil] [:append 49 3] [:r 43 nil] [:append 50 1]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:r 50 nil]
+   [:r 50 nil]
+   [:append 50 2]
+   [:append 50 3]
+   [:append 47 2]]}
+ {:type :invoke,
+  :f :txn,
+  :value [[:r 50 nil] [:append 46 2] [:r 50 nil]]}
+ {:type :invoke,
+  :f :txn,
+  :value [[:r 50 nil] [:append 44 1] [:append 51 1] [:r 51 nil]]}
+ {:type :invoke,
+  :f :txn,
+  :value [[:r 48 nil] [:r 51 nil] [:append 48 2]]}
+ {:type :invoke, :f :txn, :value [[:append 51 2] [:append 51 3]]}
+ {:type :invoke, :f :txn, :value [[:r 48 nil] [:append 52 1]]}
+ {:type :invoke,
+  :f :txn,
+  :value [[:append 47 3] [:r 52 nil] [:append 45 2]]}
+ {:type :invoke, :f :txn, :value [[:r 47 nil] [:r 48 nil] [:r 46 nil]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:append 44 2] [:r 52 nil] [:r 42 nil] [:r 52 nil] [:r 48 nil]]}
+ {:type :invoke, :f :txn, :value [[:r 53 nil] [:append 52 2]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:r 53 nil]
+   [:r 53 nil]
+   [:append 52 3]
+   [:r 54 nil]
+   [:append 54 1]
+   [:append 54 2]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:r 54 nil]
+   [:append 54 3]
+   [:r 54 nil]
+   [:append 42 1]
+   [:r 54 nil]
+   [:r 48 nil]]}
+ {:type :invoke,
+  :f :txn,
+  :value
+  [[:r 48 nil]
+   [:r 54 nil]
+   [:r 54 nil]
+   [:r 42 nil]
+   [:append 48 3]
+   [:append 53 1]]})
